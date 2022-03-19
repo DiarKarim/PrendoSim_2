@@ -1,0 +1,2 @@
+Object, ObjectPosX, ObjectPosY ,ObjectPosZ, ObjectRotX, ObjectRotY, ObjectRotZ, ObjectRotW
+hammer(Clone),0,1.2,0,0.3912527,0.8356922,0.1503378,0.3548782

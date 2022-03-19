@@ -1,0 +1,1 @@
+scissor(Clone),LeftGripperPos: (-0.001, 0.059, 0.000),RightGripperPos: (-0.001, 0.059, 0.000),ObjectPos: (0.002, 0.978, -0.056),ObjectRot: (6.927, 104.866, 8.112)

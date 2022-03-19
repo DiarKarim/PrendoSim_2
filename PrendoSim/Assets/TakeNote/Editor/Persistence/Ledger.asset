@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 757c7930830877b47944add6103cde80, type: 3}
+  m_Name: Ledger
+  m_EditorClassIdentifier: 
+  OutstandingTasks:
+  - Title: LoadModelFromOutside.cs script still doesn't work.  Press "B" button to
+      instantiate model from outside folder, but instead get error.
+    CreationDate: 24/01/2021 | 18:05
+    CompletionDate: 
+    HasDetails: 1
+    Details: "LoadModelFromOutside.cs script still doesn't work. \nPress \"B\" button
+      to instantiate model from outside folder, but instead get error."
+    IsCompleted: 0
+    IsDeferred: 0
+    IsColored: 0
+    DrawColor: {r: 1, g: 1, b: 1, a: 1}
+  - Title: Add new simulation procedure
+    CreationDate: 11/02/2021 | 00:28
+    CompletionDate: 
+    HasDetails: 1
+    Details: "Simulation procedure based on object motion\n\n1.) Wait for grasp to
+      stabilize\n2.) Start to inc. mass gradually (1.2kg per second)\n3.) Detect
+      when object slips slightly (critical mass)\n4.) Wait for object to either fall
+      off, or for a max duration time to be reached\n\n\n\\begin{enumerate}\n   \\item
+      The gripper/hand starts in a chosen orientation and with an open configuration.
+      For the BarrettHand the index and ring digit proximal joints are  set to random
+      angles (rotating on the z-axis).\n   \\item We randomly choose one of the target
+      objects and hold it fixed in a randomly chosen orientation in front of the
+      gripper for about 3 seconds.\n   \\item We drive each of the joints of the
+      kinematic hand to transition from the open configuration to the closed one
+      by following a sigmoidal motion curve over the course of 1s. \n   \\item Then
+      we release the target object and let it physically interact with the closed
+      grasp of the gripper.\n   \\item The object will either fall off to the group
+      due to gravity, in which case we go back to the start of this cycle, or it
+      will come to a stationary state in the gripper for at least 2 seconds. We consider
+      this a successful grasp configuration of the gripper. \n   \\item To evaluate
+      the stability of this successful grasp, we then start to gradually increase
+      the mass of the target object at a rate of 1.2kg per second. \n   \\item We
+      measure take note of the target object's mass at a point at which the object
+      moves from it's stationary state, critical mass.\n\\end{enumerate}"
+    IsCompleted: 0
+    IsDeferred: 0
+    IsColored: 0
+    DrawColor: {r: 1, g: 1, b: 1, a: 1}
+  - Title: Record final grip force
+    CreationDate: 23/02/2021 | 14:44
+    CompletionDate: 
+    HasDetails: 0
+    Details: 
+    IsCompleted: 0
+    IsDeferred: 0
+    IsColored: 0
+    DrawColor: {r: 1, g: 1, b: 1, a: 1}
+  CompletedTasks:
+  - Title: 1. Create a separate "Animator" for each joint (x6 in total)
+    CreationDate: 17/02/2021 | 13:11
+    CompletionDate: 23/02/2021 | 14:43
+    HasDetails: 0
+    Details: 
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 0
+    DrawColor: {r: 1, g: 1, b: 1, a: 1}
+  - Title: 2. Then update RobotHandController with the animator (x6 in total)
+    CreationDate: 17/02/2021 | 13:12
+    CompletionDate: 23/02/2021 | 14:44
+    HasDetails: 0
+    Details: 
+    IsCompleted: 1
+    IsDeferred: 0
+    IsColored: 0
+    DrawColor: {r: 1, g: 1, b: 1, a: 1}
+  DeferredTasks: []

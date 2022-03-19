@@ -1,0 +1,29 @@
+Every Line is composed of:
+- 
+robot configuration (7 fields)
+- 
+robot base frame position (3 fields)
+- 
+robot base frame orientation (3 fields - RPY)
+- 
+hand configuration (9 fields) 
+- 
+hand base frame position (3 fields)
+- 
+hand base frame orientation (3 fields - RPY)
+- 
+Object frame position (3 fields)
+- 
+Object frame orientation (3 fields - RPY)
+- 
+Camera frame position (3 fields)
+- 
+Camera frame orientation (3 fields - RPY)
+- 
+Visibility value in pixel (1 field)
+
+
+The maximum visibility value for this object is 1760 [pixels].
+
+
+We obtain the maximum value by inflating the convex hull of the object model by 0.002 [m].  

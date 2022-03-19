@@ -1,0 +1,2 @@
+Object, ObjectPosX, ObjectPosY ,ObjectPosZ, ObjectRotX, ObjectRotY, ObjectRotZ, ObjectRotW
+scissor(Clone),0,1.2,0,0.1094424,0.6007831,0.1255699,0.7818659

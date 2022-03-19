@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a227394de62b02447b0d07d5ef5a04ba, type: 3}
+  m_Name: StateObject
+  m_EditorClassIdentifier: 
+  Grippers:
+  - GripperName: BarrettHand
+    numberOfContacts: 3
+    numberOfJoints: 8
+    jointsToClose: 0000000000000000000000000000000001000000000000000100000000000000
+    jointsToOpen: 0000000000000000000000000000000001000000000000000100000000000000
+    fingerTipForce:
+    - 0
+    - 0
+    - 0
+  - GripperName: FrankeEmika
+    numberOfContacts: 2
+    numberOfJoints: 2
+    jointsToClose: 0000000000000000
+    jointsToOpen: 0000000000000000
+    fingerTipForce:
+    - 0
+    - 0
+  SpawnObjects: 0
+  pGripperOpen: 0
+  pGripperClose: 0
+  inContact: 0
+  maxTime: 6
+  gripperClosed: 0
+  fingerTipContacts: 010000000100000001000000
+  userFriendly: 0
+  handClosed: 1
+  activateGravityMass: 0
+  stopHandRoutine: 1
+  contactForce:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  stopGripper: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  closeHand: 0
+  openHand: 0
+  stopHand: 0
+  recordData: 0
+  jointSpeed: 20
+  onTable: 0

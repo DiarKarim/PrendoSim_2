@@ -1,0 +1,1 @@
+screwd(Clone),LeftGripperPos: (-0.001, 0.059, 0.000),RightGripperPos: (-0.001, 0.059, 0.000),ObjectPos: (0.005, 1.199, -0.019),ObjectRot: (7.490, 83.566, 49.325)

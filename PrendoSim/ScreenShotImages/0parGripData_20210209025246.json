@@ -1,0 +1,7 @@
+{
+  "conditionInfo": "",
+  "headPose": "View,-0.04,1.207,-0.601,0,0,0,1",
+  "gripperData": "LeftGripperPos: (-0.001, 0.059, 0.000),RightGripperPos: (-0.001, 0.059, 0.000)",
+  "objectPose": "hammer(Clone),ObjectPos: (0.004, 1.194, -0.001),ObjectRot: (1.611, 94.981, 72.448)",
+  "categoricalDir": "sideways"
+}

@@ -1,0 +1,7 @@
+{
+  "conditionInfo": "",
+  "headPose": "View,-0.04,1.207,-0.601,0,0,0,1",
+  "gripperData": "LeftGripperPos: (-0.001, 0.059, 0.000),RightGripperPos: (-0.001, 0.059, 0.000)",
+  "objectPose": "screwd(Clone),ObjectPos: (0.005, 1.203, -0.015),ObjectRot: (332.600, 109.020, 52.886)",
+  "categoricalDir": null
+}

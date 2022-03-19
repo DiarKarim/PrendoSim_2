@@ -1,0 +1,2 @@
+Object, ObjectPosX, ObjectPosY ,ObjectPosZ, ObjectRotX, ObjectRotY, ObjectRotZ, ObjectRotW
+screwd(Clone),0,1.2,0,0.1419324,0.625702,0.01361389,0.7669204

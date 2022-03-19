@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Z
+  - Y
+  - X
+  - ObjectTrigger
+  - object
+  - idxPrx
+  - idxPrxT
+  - rngPrx
+  - rngPrxT
+  - tmbPrx
+  - tmbPrxT
+  - screenshot
+  - CameraParent
+  - Robot
+  - DestroyTag
+  - targetObject
+  - anchor
+  - spawnloc
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - NoSelfCollide
+  - NoObjectSelfCollide
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
